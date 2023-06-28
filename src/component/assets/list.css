@@ -1,0 +1,58 @@
+h3{
+    color: green;
+}
+button{
+    background-color: green;
+    border: 0;
+    padding: 1%;
+    font-weight: 600;
+    color: #EEE ;
+}
+form input{
+    padding: 0.9%;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1% ;
+    flex-grow: 1;
+
+}
+.aside button{
+
+}
+.main{
+    flex: 2 0 auto;
+}
+table{
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+thead th{
+    color: whitesmoke;
+    background-color: navy;
+    text-align: center;
+    
+}
+th, td {
+    text-align: left;
+    padding: 16px;
+  }
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+.aside button{
+    background-color: white;
+    border: 1px solid;
+    padding: 5%;
+    font-weight: 600;
+    color: black ;
+}
+.body-sec{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 1%;
+}
